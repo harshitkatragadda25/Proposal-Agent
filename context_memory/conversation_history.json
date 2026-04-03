@@ -1,0 +1,52 @@
+{
+  "conversations": [
+    {
+      "conversation_id": "database_import",
+      "role": "user",
+      "content": "no",
+      "timestamp": "2025-07-21T16:45:03.502203+05:30"
+    },
+    {
+      "conversation_id": "database_import",
+      "role": "bot",
+      "content": " \"Greetings and welcome to Arka360! We're thrilled to have you aboard, the most advanced solar design and proposal platform. To kick things off, kindly provide us with your project name, client name, and the project address.\"\n\nHere's another version:\n\n\"Hi there! Welcome to Arka360 — where innovation meets simplicity in solar design and sales. Before we dive in, could you please share the name of your project, your client's name, and the location of the project? We're eager to get started!\"",
+      "timestamp": "2025-07-21T16:45:08.574131+05:30"
+    },
+    {
+      "conversation_id": "database_import",
+      "role": "user",
+      "content": "client name : tanishk",
+      "timestamp": "2025-07-21T16:45:27.233960+05:30"
+    },
+    {
+      "conversation_id": "database_import",
+      "role": "bot",
+      "content": " Hey there! Could you please provide the project name and address for our setup? We're ready to get started once we have those details. Thanks!",
+      "timestamp": "2025-07-21T16:45:30.104268+05:30"
+    },
+    {
+      "conversation_id": "database_import",
+      "role": "user",
+      "content": "project name : test1 \naddress : brittany mnr dr",
+      "timestamp": "2025-07-21T16:45:51.817766+05:30"
+    },
+    {
+      "conversation_id": "database_import",
+      "role": "bot",
+      "content": " Hello there! Wonderful job setting up your solar project — we're thrilled to help you make the switch to clean energy!\n\nTo tailor your personalized solar proposal, please take a moment to select your utility rate. This will give us insight into your electricity costs and how much you can save. You can do that by visiting this link: https://dev.arka360.com/projectSummary/112677\n\nWe're here to guide you every step of the way, so don't hesitate if you have any questions or need assistance along the way.\n\nCheers!",
+      "timestamp": "2025-07-21T16:45:59.150802+05:30"
+    },
+    {
+      "conversation_id": "database_import",
+      "role": "user",
+      "content": "__auto__",
+      "timestamp": "2025-07-21T16:45:59.679654+05:30"
+    },
+    {
+      "conversation_id": "database_import",
+      "role": "bot",
+      "content": "Great! How would you like to enter your usage?\n1. Average Monthly Energy (kWh)\n2. Average Monthly Bill ($)\nPlease enter 1 or 2.",
+      "timestamp": "2025-07-21T16:45:59.681492+05:30"
+    }
+  ]
+}

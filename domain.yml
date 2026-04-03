@@ -1,0 +1,40 @@
+version: "3.1"
+
+
+
+
+
+
+
+intents:
+  - create_project
+entities:
+  - project_name
+  - address
+
+slots:
+  project_name:
+    type: text
+    influence_conversation: true
+  address:
+    type: text
+    influence_conversation: true
+
+forms:
+  project_creation_form:
+    required_slots:
+      - project_name
+      - address
+
+responses:
+  utter_ask_project_name:
+    - text: "What is the name of the project?"
+  utter_ask_address:
+    - text: "Where is the project located?"
+  utter_project_created:
+    - text: "Your project '{project_name}' at '{address}' has been successfully created."
+  utter_missing_info:
+    - text: "Please provide both the project name and address."
+
+actions:
+  - action_create_project

@@ -1,0 +1,17 @@
+version: "3.1"
+
+
+
+rules:
+  - rule: Activate project creation form
+    steps:
+      - intent: create_project
+      - action: project_creation_form
+      - active_loop: project_creation_form
+
+  - rule: Handle project creation form completion
+    condition:
+      - active_loop: project_creation_form
+    steps:
+      - action: action_create_project
+      - active_loop: null

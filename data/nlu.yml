@@ -1,0 +1,41 @@
+version: "3.1"
+
+
+nlu:
+  
+  - intent: create_project
+    examples: |
+      - I want to create a project at address [India](address) with name [Rechard](project_name)
+      - Create a project called [SolarTech](project_name) at [New York](address)
+      - Create a project at [Bangalore](address)
+      - Start a project at address [Pune](address) with name [GreenEnergy](project_name)
+      - Create a project called [EnergyHub](project_name)
+
+
+
+
+  - intent: provide_project_name
+    examples: |
+      - The project name is SolarTech
+      - Solar Energy Design
+      - [GreenPower System]("project_name")
+
+ 
+
+ 
+  - intent: affirm
+    examples: |
+      - Yes
+      - Sure
+      - That's correct
+
+  - intent: deny
+    examples: |
+      - No
+      - Not really
+
+  - intent: missing_info
+    examples: |
+      - What information is missing?
+      - Why can't I proceed?
+      - What should I provide?

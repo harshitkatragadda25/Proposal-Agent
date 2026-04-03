@@ -1,0 +1,31 @@
+version: "3.1"
+
+
+
+
+stories:
+  - story: Create project with all information
+    steps:
+      - intent: create_project
+        entities:
+          - project_name: "SolarTech"
+          - address: "India"
+      - action: project_creation_form
+      - active_loop: project_creation_form
+      - action: action_create_project
+
+  - story: Create project with missing address
+    steps:
+      - intent: create_project
+        entities:
+          - project_name: "Greenfield"
+      - action: project_creation_form
+      - active_loop: project_creation_form
+
+  - story: Create project with missing project name
+    steps:
+      - intent: create_project
+        entities:
+          - address: "123 Main Street"
+      - action: project_creation_form
+      - active_loop: project_creation_form

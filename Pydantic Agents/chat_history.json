@@ -1,0 +1,232 @@
+{
+  "session_info": {
+    "session_start": "2025-08-06T16:05:13.619923",
+    "session_end": "2025-08-06T16:11:05.042364",
+    "total_messages": 27,
+    "token_usage": {
+      "total_requests": 24,
+      "total_request_tokens": 13257,
+      "total_response_tokens": 638,
+      "total_tokens_used": 19199
+    }
+  },
+  "messages": [
+    {
+      "timestamp": "2025-08-06T16:05:19.108041",
+      "sender": "orchestrator",
+      "message": "Hello! I'm the Project Management Orchestrator, your go-to assistant for all things project-related.\n\nHere's how I can help:\n\n*   **Create new projects:** Just say something like \"create a new project\" or \"I want to start a project.\"\n*   **Look up existing projects:** If you have an 8-digit project ID, I can look it up and create a design for you.\n*   **Chat:** We can also just have a conversation.\n\nHow can I help you get started?",
+      "tokens_used": {
+        "requests": 1,
+        "request_tokens": 404,
+        "response_tokens": 115,
+        "total_tokens": 768
+      }
+    },
+    {
+      "timestamp": "2025-08-06T16:05:39.755932",
+      "sender": "user",
+      "message": "create design",
+      "tokens_used": null
+    },
+    {
+      "timestamp": "2025-08-06T16:05:44.614859",
+      "sender": "orchestrator",
+      "message": "Of course! What is the 8-digit project ID you'd like me to create a design for?",
+      "tokens_used": {
+        "requests": 1,
+        "request_tokens": 403,
+        "response_tokens": 23,
+        "total_tokens": 637
+      }
+    },
+    {
+      "timestamp": "2025-08-06T16:06:00.934183",
+      "sender": "user",
+      "message": "26959113",
+      "tokens_used": null
+    },
+    {
+      "timestamp": "2025-08-06T16:06:04.161069",
+      "sender": "system",
+      "message": "[Orchestrator \u2192 Design Agent] Starting project lookup...",
+      "tokens_used": null
+    },
+    {
+      "timestamp": "2025-08-06T16:06:11.910046",
+      "sender": "design_agent",
+      "message": "\u2705 PROJECT FOUND!\n\n\ud83d\udccb Project Summary:\n\ud83c\udd94 Project ID: 26959113\n\ud83d\udcdd Project Name: test1\n\ud83d\udccd Address: brittany,amherst,01002\n\ud83d\udce7 Client Email: harshit@gmail.com\n\nYou can now proceed with the design phase.",
+      "tokens_used": {
+        "requests": 2,
+        "request_tokens": 710,
+        "response_tokens": 92,
+        "total_tokens": 1242
+      }
+    },
+    {
+      "timestamp": "2025-08-06T16:06:16.735983",
+      "sender": "orchestrator",
+      "message": "\u2705 PROJECT FOUND!\n\n\ud83d\udccb Project Summary:\n\ud83c\udd94 Project ID: 26959113\n\ud83d\udcdd Project Name: test1\n\ud83d\udccd Address: brittany,amherst,01002\n\ud83d\udce7 Client Email: harshit@gmail.com\n\nYou can now proceed with the design phase.",
+      "tokens_used": {
+        "requests": 2,
+        "request_tokens": 931,
+        "response_tokens": 90,
+        "total_tokens": 1345
+      }
+    },
+    {
+      "timestamp": "2025-08-06T16:07:03.270143",
+      "sender": "user",
+      "message": "create design",
+      "tokens_used": null
+    },
+    {
+      "timestamp": "2025-08-06T16:07:08.111123",
+      "sender": "system",
+      "message": "[Orchestrator \u2192 Design Agent] Starting project lookup...",
+      "tokens_used": null
+    },
+    {
+      "timestamp": "2025-08-06T16:07:14.379225",
+      "sender": "user",
+      "message": "12345678",
+      "tokens_used": null
+    },
+    {
+      "timestamp": "2025-08-06T16:07:21.172485",
+      "sender": "design_agent",
+      "message": "\u274c PROJECT NOT FOUND\n\nThe project ID 12345678 does not exist in our system.",
+      "tokens_used": {
+        "requests": 2,
+        "request_tokens": 656,
+        "response_tokens": 50,
+        "total_tokens": 1089
+      }
+    },
+    {
+      "timestamp": "2025-08-06T16:07:21.174499",
+      "sender": "design_agent",
+      "message": "\n[Design Agent] Project ID 12345678 was not found.",
+      "tokens_used": null
+    },
+    {
+      "timestamp": "2025-08-06T16:07:27.757224",
+      "sender": "design_agent",
+      "message": "Would you like to create a new project instead?",
+      "tokens_used": null
+    },
+    {
+      "timestamp": "2025-08-06T16:07:27.757224",
+      "sender": "user",
+      "message": "yes",
+      "tokens_used": null
+    },
+    {
+      "timestamp": "2025-08-06T16:07:27.757224",
+      "sender": "system",
+      "message": "[Orchestrator \u2192 Project Agent] Starting project creation...",
+      "tokens_used": null
+    },
+    {
+      "timestamp": "2025-08-06T16:07:37.032489",
+      "sender": "project_agent",
+      "message": "What is the project name?",
+      "tokens_used": {
+        "requests": 2,
+        "request_tokens": 1255,
+        "response_tokens": 18,
+        "total_tokens": 1701
+      }
+    },
+    {
+      "timestamp": "2025-08-06T16:07:44.670761",
+      "sender": "user",
+      "message": "project name is test1",
+      "tokens_used": null
+    },
+    {
+      "timestamp": "2025-08-06T16:07:56.658269",
+      "sender": "project_agent",
+      "message": "What is the project address?",
+      "tokens_used": {
+        "requests": 3,
+        "request_tokens": 1937,
+        "response_tokens": 45,
+        "total_tokens": 2608
+      }
+    },
+    {
+      "timestamp": "2025-08-06T16:08:10.690733",
+      "sender": "user",
+      "message": "address will be brittany,amherst",
+      "tokens_used": null
+    },
+    {
+      "timestamp": "2025-08-06T16:08:26.452782",
+      "sender": "project_agent",
+      "message": "What is the client email?",
+      "tokens_used": {
+        "requests": 3,
+        "request_tokens": 1994,
+        "response_tokens": 49,
+        "total_tokens": 2761
+      }
+    },
+    {
+      "timestamp": "2025-08-06T16:08:33.237707",
+      "sender": "user",
+      "message": "email is harshit@12",
+      "tokens_used": null
+    },
+    {
+      "timestamp": "2025-08-06T16:08:42.236962",
+      "sender": "project_agent",
+      "message": "Please provide a valid email address (like user@domain.com)",
+      "tokens_used": {
+        "requests": 2,
+        "request_tokens": 1265,
+        "response_tokens": 26,
+        "total_tokens": 1668
+      }
+    },
+    {
+      "timestamp": "2025-08-06T16:09:02.772743",
+      "sender": "user",
+      "message": "harshit@gmail.com",
+      "tokens_used": null
+    },
+    {
+      "timestamp": "2025-08-06T16:09:24.090857",
+      "sender": "project_agent",
+      "message": "\u2705 PROJECT CREATED SUCCESSFULLY!\n\ud83d\udcdd Project Name: test1\n\ud83d\udccd Address: brittany,amherst\n\ud83d\udce7 Email: harshit@gmail.com\n\ud83c\udd94 Project ID: 90903344",
+      "tokens_used": {
+        "requests": 4,
+        "request_tokens": 2793,
+        "response_tokens": 101,
+        "total_tokens": 4157
+      }
+    },
+    {
+      "timestamp": "2025-08-06T16:09:24.102528",
+      "sender": "project_agent",
+      "message": "\u2705 PROJECT CREATED SUCCESSFULLY!\n\n\ud83d\udcdd Project Name: test1\n\ud83d\udccd Address: brittany,amherst\n\ud83d\udce7 Email: harshit@gmail.com\n\ud83c\udd94 Project ID: 90903344\n\nYour project is now ready! Save the Project ID for future reference.",
+      "tokens_used": null
+    },
+    {
+      "timestamp": "2025-08-06T16:09:27.767175",
+      "sender": "orchestrator",
+      "message": "Sounds great! What would you like to do next?",
+      "tokens_used": {
+        "requests": 2,
+        "request_tokens": 909,
+        "response_tokens": 29,
+        "total_tokens": 1223
+      }
+    },
+    {
+      "timestamp": "2025-08-06T16:11:05.042364",
+      "sender": "user",
+      "message": "save",
+      "tokens_used": null
+    }
+  ]
+}
